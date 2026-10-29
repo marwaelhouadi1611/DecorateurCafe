@@ -1,18 +1,26 @@
 # Patron Décorateur — C#
 
-Exemple : café québécois personnalisable (Espresso / Café filtre + lait, sirop d'érable, crème fouettée).
+Exemple de café personnalisable : espresso ou café filtre, avec lait,
+sirop d'érable et crème fouettée.
+
+## Prérequis
+
+SDK .NET 8. Aucun package NuGet externe n'est nécessaire.
 
 ## Exécution
 
-SDK .NET 8 ou plus, aucune dépendance externe :
+Depuis le dossier contenant `DecorateurCafe.csproj` :
 
-```
+```bash
 dotnet run
 ```
 
-Sortie attendue :
+On peut aussi ouvrir `DecorateurCafe.sln` dans Visual Studio
+et exécuter avec **Ctrl + F5**.
 
-```
+## Sortie attendue
+
+```text
 Espresso : 2.50 $
 Café filtre, lait, sirop d'érable : 3.35 $
 Espresso, sirop d'érable, crème fouettée : 4.15 $
